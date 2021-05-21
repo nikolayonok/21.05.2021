@@ -5,9 +5,8 @@ public class Task6 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число ");
         int a = sc.nextInt();
-        for (int i = 1; i < a; i++) {
+        for (int i = 1; i <= a; i++) {
             System.out.print("*");
-
         }
     }
 }

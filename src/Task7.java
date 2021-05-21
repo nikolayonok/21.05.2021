@@ -6,8 +6,8 @@ public class Task7 {
         System.out.println("Введите число ");
         int a = sc.nextInt();
         System.out.println("Введите символ ");
-        String b = sc.next();
-        for (int i = 1; i < a; i++) {
+        char b = sc.next().charAt(0);
+        for (int i = 1; i <= a; i++) {
             System.out.println(b);
         }
     }
